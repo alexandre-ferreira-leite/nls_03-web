@@ -140,8 +140,8 @@ export default function CreateOrphanage() {
               <label htmlFor="open_on_weekends">Atende fim de semana</label>
 
               <div className="button-select">
-                <button type="button" className={open_on_weekends == 1 ? "active" : ""} onClick={() => setOpenOnWeekends(1)} >Sim</button>
-                <button type="button" className={open_on_weekends == 0 ? "active" : ""} onClick={() => setOpenOnWeekends(0)} >Não</button>
+                <button type="button" className={open_on_weekends === 1 ? "active" : ""} onClick={() => setOpenOnWeekends(1)} >Sim</button>
+                <button type="button" className={open_on_weekends === 0 ? "active" : ""} onClick={() => setOpenOnWeekends(0)} >Não</button>
               </div>
             </div>
           </fieldset>
